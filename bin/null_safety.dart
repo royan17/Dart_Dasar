@@ -22,7 +22,7 @@ void main () {
 
   /// cara lain
   // guest = 'Royyan';
-  String guestName = guest ?? 'Guest';
+  // String guestName = guest ?? 'Guest';
 
   /// cara ternary
   // String guestName = guest != null ? guest : 'Guest';
@@ -34,6 +34,17 @@ void main () {
   // } else {
   //   guestName = 'Guest';
   // }
-  print(guestName);
+  // print(guestName);
+
+
+  int? dataInt;
+
+  double? dataDouble = dataInt?.toDouble();
+  /// cara panjang
+  // double dataDouble;
+  // if(dataInt != null) {
+  //   dataDouble = dataInt.toDouble();
+  // }
+  print(dataDouble);
 
 }
